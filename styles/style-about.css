@@ -23,7 +23,7 @@ html, body {
     text-decoration: none;
 }
 
-/* about and blogs pages */
+
 .about {
     position: relative;
     left: 25%;
@@ -32,7 +32,39 @@ html, body {
     width: 10%;
 }
 
+#about {
+   font-family: cinzel;
+    color: orange;
+    width: 10%;
+}
 
+.image2 {
+     
+    background: #d3d9dc;
+    padding-top: 15px;
+    padding-bottom: 15px;
+ }
+ .photo2 {
+     width: 90%;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     opacity: 0.3
+ }
+ #shadow {
+     box-shadow: 5px 5px 5px rgba(0, 0, 0, .6);
+ }
+ .text {
+     text-align: justify;
+     width: 75%;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     position: relative;
+     z-index: 10;
+     top: -275px;
+     font-family: 'Raleway', sans-serif;
+ }
 
 .anchor {
     position: relative;
@@ -55,25 +87,10 @@ html, body {
     font-size: 25px;
 }   
 
- .image {
-     
-    background: #d3d9dc;
-    padding-top: 15px;
-    padding-bottom: 15px;
+#blog {
+    font-family: cinzel;
+     color: orange;
  }
- .photo {
-     width: 90%;
-     display: block;
-     margin-left: auto;
-     margin-right: auto;
-     
- }
- #shadow {
-     box-shadow: 5px 5px 5px rgba(0, 0, 0, .6);
- }
-
-
-
 
 .bottom {
         background-color: #d3d9dc ;
@@ -89,5 +106,4 @@ html, body {
         padding: 15px;
         text-align: center;
         }
-
 
