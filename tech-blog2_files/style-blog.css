@@ -54,9 +54,6 @@ html, body {
  #shadow {
      box-shadow: 5px 5px 5px rgba(0, 0, 0, .6);
  }
-
-
- 
  .text {
      text-align: justify;
      width: 75%;
@@ -73,8 +70,7 @@ html, body {
     position: relative;
     text-decoration: none;
     text-align: center;
-    color: black;  
-
+    color: black;    
 }
 
 .anchor:hover {
@@ -107,18 +103,44 @@ html, body {
     font-family: 'Raleway', sans-serif;
 }
 
- .image { 
+ .image {
+     
     background: #d3d9dc;
     padding-top: 15px;
-    padding-bottom: 35px;
+    padding-bottom: 15px;
+ }
+ .photo {
+     width: 90%;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     
+ }
+ #shadow {
+     box-shadow: 5px 5px 5px rgba(0, 0, 0, .6);
  }
 
 
 
 
+.bottom {
+        background-color: #d3d9dc ;
+        position: absolute;
+        bottom: 1px;
+        width: 100%;
+        }
+
+.footer {
+        font-family:'Cinzel', serif;
+        color: black;
+        margin-bottom: 10px;
+        padding: 15px;
+        text-align: center;
+        }
+
 .blog1 {   
         position: relative;
-       left: 150px;
+        left: 150px;
         top: -250px;
         z-index: 50;
         height: 75px;
@@ -172,21 +194,6 @@ html, body {
     margin: auto;
 }
 
-.bottom {
-    background-color: #d3d9dc ;
-    position: absolute;
-    bottom: 1px;
-    width: 100%;
-    }
-
-.footer {
-    font-family:'Cinzel', serif;
-    color: black;
-    margin-bottom: 10px;
-    padding: 15px;
-    text-align: center;
-    }
-
 
 
         /* blog page */
@@ -197,97 +204,5 @@ html, body {
             margin-top: 0;
             padding: 15px;
             text-align: center;
+            border-inline-color: black;
         }
-
-        h2 {
-            width: 50%;
-            margin-left: auto;
-            margin-right: auto;
-        }
-
-        
-
-        /* example */
-
-        .example-inline {
-            position: relative;
-            left: 200px;
-            top: 25px;
-        }
-
-        .example1 {
-            padding-left: 25px;
-            padding-right: 25px;
-            border: 1px solid black;
-            width: 100px;
-            height: 30px;
-        }
-
-        .photoexample1 {
-            width: 500px;
-            position: relative;
-            left: 50%;
-            top: -25px;
-        }
-
-        .example2 {
-            display: inline-block;
-            padding-left: 25px;
-            padding-right: 25px;
-            border: 1px solid black;
-            width: 100px;
-            height: 30px;
-        }
-
-        .photoexample2 {
-            width: 500px;
-            position: relative;
-            left: 55%;
-            top: -25px;
-        }
-
-        .example-block {
-            position: relative;
-            left: 200px;
-            top: 25px;
-        }
-
-       .example3 {
-            padding-left: 25px;
-            padding-right: 25px;
-            border: 1px solid black;
-            width: 100px;
-            height: 30px;
-        }
-
-        .photoexample3 {
-            width: 500px;
-            position: relative;
-            top: -100px;
-            left: 50%;
-        }
-       #text3{
-           font-size: 12px;
-           position: relative;
-           top: -25px;
-           margin-left: auto;
-           margin-right: auto;
-       }
-
-
-        .example4 {
-            display: inline-block;
-            padding-left: 25px;
-            padding-right: 25px;
-            border: 1px solid black;
-            width: 100px;
-            height: 30px;
-        }
-
-        .photoexample4 {
-            width: 500px;
-            position: relative;
-            left: 55%;
-            top: -50px;
-        }
-        

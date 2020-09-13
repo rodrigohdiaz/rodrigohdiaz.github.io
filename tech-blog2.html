@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>RD Blog</title>
+    <link rel="stylesheet" href="styles/style-blog.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet"> 
+  </head> 
+  <body>
+    <div class='header'>
+      <h1 class='name'><a href='index.html' class='anchor'>rodrigo d&iacute;az</a></h1>
+    </div>
+       
+
+    <div class='about'><a href="about.html" class='anchor'>about</a></div>
+    
+    <div class='blog'><a href="blog.html" class='anchor'>blog</a></div>
+   
+    <div class='image'>
+<div class='blogText'>
+    <h1 class='title'>What does it mean to display inline vs inline blocks?</h1>
+    
+    <p class='text3'>
+      On HTML every element has two display values depending on the type of element, this are "inline" and "block".<br>
+
+      Inline elements are the ones that stay in the same line and some properties are not respected, like "margin top" or "margin bottom", 
+      these elements can be one next to the other, here are the inline elements on html:
+    </p>
+    <p class='text3'>
+      
+      <span><</span><strong>a</strong><span>></span>
+      <span><</span><strong>abbr</strong><span>></span>
+      <span><</span><strong>acronym</strong><span>></span>
+      <span><</span><strong>b</strong><span>></span>
+      <span><</span><strong>bdo</strong><span>></span>
+      <span><</span><strong>big</strong><span>></span>
+      <span><</span><strong>br</strong><span>></span>
+      <span><</span><strong>button</strong><span>></span>
+      <span><</span><strong>cite</strong><span>></span>
+      <span><</span><strong>code</strong><span>></span>
+      <span><</span><strong>dfn</strong><span>></span>
+      <span><</span><strong>em</strong><span>></span>
+      <span><</span><strong>i</strong><span>></span>
+      <span><</span><strong>img</strong><span>></span>
+      <span><</span><strong>input</strong><span>></span>
+      <span><</span><strong>kbd</strong><span>></span>
+      <span><</span><strong>label</strong><span>></span>
+      <span><</span><strong>map</strong><span>></span>
+      <span><</span><strong>object</strong><span>></span>
+      <span><</span><strong>output</strong><span>></span>
+      <span><</span><strong>q</strong><span>></span>
+      <span><</span><strong>samp</strong><span>></span>
+      <span><</span><strong>script</strong><span>></span>
+      <span><</span><strong>select</strong><span>></span>
+      <span><</span><strong>small</strong><span>></span>
+      <span><</span><strong>span</strong><span>></span>
+      <span><</span><strong>>strong</strong><span>></span>
+      <span><</span><strong>sub</strong><span>></span>
+      <span><</span><strong>sup</strong><span>></span>
+      <span><</span><strong>textarea</strong><span>></span>
+      <span><</span><strong>time</strong><span>></span>
+      <span><</span><strong>ttM</strong><span>></span>
+      <span><</span><strong>var</strong><span>></span> 
+  
+      
+    </p>
+    <p class='text3'>
+      On the other hand, Block elements are the ones that are displayed one on top of the other, 
+      each of  these elements, by default, start on a new line each one.  This are the block elements on html:
+    </p>
+
+    <p class='text3'>
+      
+      <span><</span><strong>address</strong><span>></span>
+      <span><</span><strong>article</strong><span>></span>
+      <span><</span><strong>aside</strong><span>></span>
+      <span><</span><strong>blockquote</strong><span>></span>
+      <span><</span><strong>canvas</strong><span>></span>
+      <span><</span><strong>dd</strong><span>></span>
+      <span><</span><strong>div</strong><span>></span>
+      <span><</span><strong>dl</strong><span>></span>
+      <span><</span><strong>dt</strong><span>></span>
+      <span><</span><strong>fieldset</strong><span>></span>
+      <span><</span><strong>figcaption</strong><span>></span>
+      <span><</span><strong>figure</strong><span>></span>
+      <span><</span><strong>footer</strong><span>></span>
+      <span><</span><strong>form</strong><span>></span>
+      <span><</span><strong>h1-h6</strong><span>></span>
+      <span><</span><strong>header</strong><span>></span>
+      <span><</span><strong>hr</strong><span>></span>
+      <span><</span><strong>li</strong><span>></span>
+      <span><</span><strong>main</strong><span>></span>
+      <span><</span><strong>nav</strong><span>></span>
+      <span><</span><strong>noscript</strong><span>></span>
+      <span><</span><strong>ol</strong><span>></span>
+      <span><</span><strong>p</strong><span>></span>
+      <span><</span><strong>pre</strong><span>></span>
+      <span><</span><strong>section</strong><span>></span>
+      <span><</span><strong>table</strong><span>></span>
+      <span><</span><strong>>tfoot</strong><span>></span>
+      <span><</span><strong>ul</strong><span>></span>
+      <span><</span><strong>video</strong><span>></span>
+        
+    </p>
+
+    <p class="text3">Sometimes, when working on a design, we want to change the way that any 
+      of these elements are displayed on a website, and we might want to have an inline element 
+      to be displayed as a 'block' or we might want to have block elements to be displayed one 
+      next to the other, and in these situations on CSS we use the property "display" to be able 
+      to work around these 'default' attributes of these elements, so with 'display: inline-block', 
+      an element that by default is 'inline', we can now set a width and height on this element and 
+      make it to be displayed as a 'block' element.
+    </p>
+
+    <br>
+
+
+    <div class="example-inline">
+    <span class="example1">this text1</span>
+    <span class="example1">this text1</span>
+    <span class="example1">this text1</span>
+    </div>
+
+
+    <div><img src="images/example1.png" alt="display-inline" class='photoexample1' id='shadow'></div>
+   
+   <p class="text3" id="text3">In the above example, the default 'display' of the elements is 'inline',
+     where the width and heigh are not respected, but the padding to the sides does.
+    </p>
+   <br>
+
+
+
+    <div class="example-inline">
+      <span class="example2">this text2</span>
+      <span class="example2">this text2</span>
+      <span class="example2">this text2</span>
+    </div>
+
+
+    <div><img src="images/example2.png" alt="display-block" class='photoexample2' id='shadow'></div>
+
+
+    <p class="text3" id="text3">In the above example, the display was set to "inline-block" and we can see
+      that now the same 3 boxes of text have now a width and a height, which is respected now.
+     </p>
+<br>
+
+    <p class="text3" id="text3">Same for the opposite situation, we can have a 'block element' and the way that we want our design,
+       we want it to be displayed one next to the other, a classic example would be some paragraphs,
+        we might want them to be as X amount of colums in our website, so the way that we would do 
+      it would be to change the display attribute in CSS: 'display: inline' in order to achieve this.
+    </p>
+
+    <div class="example-block">
+      <p class="example3">this text3</p>
+      <p class="example3">this text3</p>
+      <p class="example3">this text3</p>
+    </div>
+
+  <img src="images/example3.png" alt="display-block" class='photoexample3' id='shadow'>
+
+    <p class="text3" id="text3">In this case, we can see that the default display property for 
+      the paragraph tag is block, they are stack on each other.
+   </p>
+
+
+
+    <div class="example-block">
+      <p class="example4">this text4</p>
+      <p class="example4">this text4</p>
+      <p class="example4">this text4</p>
+    </div>
+
+    <img src="images/example4.png" alt="display-block" class='photoexample4' id='shadow'>
+
+    <p class="text3" id="text3">Above we can see that the css display property for the text element
+      was set as "inline-block" and now mantaining their block properties, they are now
+      displayed one next to each other.
+   </p>
+
+   
+    </div>
+
+  </div>
+
+
+    <div class='bottomBlog'>
+      <footer class='footer'>&#169; rodrigo d&iacute;az 2020</footer>
+    </div>
+  </body>
+</html>
