@@ -113,7 +113,11 @@ html, body {
     padding-bottom: 35px;
  }
 
-
+ .buttons {
+    position: relative;
+    width: 1000px;
+    margin: auto;
+}
 
 
 .blog1 {   
@@ -145,6 +149,16 @@ html, body {
     width: 125px;
     background-color: #d3d9dd;
 }
+
+.blog4 {
+    position: relative;
+    left: 750px;
+    top: -475px;
+    z-index: 50;
+    height: 75px;
+    width: 125px;
+    background-color: #d3d9dd;
+}
 .text3 {
     text-align: justify;
     width: 75%;
@@ -165,11 +179,26 @@ html, body {
     position: relative;
     top: 20px;   
 }
-
-.buttons {
+.text5 {
+    text-align: justify;
+    width: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     position: relative;
-    width: 900px;
-    margin: auto;
+    top: 25px;
+    z-index: 10;
+    font-family: 'Raleway', sans-serif;
+}
+
+#story {
+    font-size: 15px;
+}
+
+.back {
+    position: relative;
+    left: 90%;
+    text-decoration: none;
 }
 
 .bottom {
@@ -186,6 +215,8 @@ html, body {
     padding: 15px;
     text-align: center;
     }
+
+
 
 
 
