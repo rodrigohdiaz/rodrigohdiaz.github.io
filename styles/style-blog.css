@@ -122,7 +122,7 @@ html, body {
 
 .blog1 {   
         position: relative;
-       left: 150px;
+       left: 50px;
         top: -250px;
         z-index: 50;
         height: 75px;
@@ -132,7 +132,7 @@ html, body {
 
 .blog2 {   
     position: relative;
-    left: 350px;
+    left: 250px;
     top: -325px;
     z-index: 50;
     height: 75px;
@@ -142,7 +142,7 @@ html, body {
 
 .blog3 {   
     position: relative;
-    left: 550px;
+    left: 450px;
     top: -400px;
     z-index: 50;
     height: 75px;
@@ -152,8 +152,18 @@ html, body {
 
 .blog4 {
     position: relative;
-    left: 750px;
+    left: 650px;
     top: -475px;
+    z-index: 50;
+    height: 75px;
+    width: 125px;
+    background-color: #d3d9dd;
+}
+
+.blog5 {
+    position: relative;
+    left: 850px;
+    top: -550px;
     z-index: 50;
     height: 75px;
     width: 125px;
