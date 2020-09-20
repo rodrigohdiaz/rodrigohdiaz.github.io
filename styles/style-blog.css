@@ -171,8 +171,8 @@ html, body {
 
 .blog4 {
     position: relative;
-    left: 650px;
-    top: -475px;
+    left: 23%;
+    top: -400px;
     z-index: 50;
     height: 75px;
     width: 125px;
@@ -181,8 +181,8 @@ html, body {
 
 .blog5 {
     position: relative;
-    left: 850px;
-    top: -550px;
+    left: 43%;
+    top: -275px;
     z-index: 50;
     height: 75px;
     width: 125px;
@@ -191,8 +191,8 @@ html, body {
 
 .blog6 {
     position: relative;
-    left: 1050px;
-    top: -600px;
+    left: 65%x;
+    top: -350px;
     z-index: 50;
     height: 75px;
     width: 125px;
