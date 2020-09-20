@@ -118,12 +118,31 @@ html, body {
     width: 1000px;
     margin: auto;
 }
+.blog-1{
+    position: relative;
+    left: 13%;
+    top: -250px;
+    z-index: 50;
+    height: 75px;
+    width: 125px;
+    background-color: #d3d9dd;
+}
+
+.blog-2{
+    position: relative;
+    left: 63%;
+    top: -320px;
+    z-index: 50;
+    height: 75px;
+    width: 125px;
+    background-color: #d3d9dd;
+}
 
 
 .blog1 {   
         position: relative;
-       left: 50px;
-        top: -250px;
+       left: 23%;
+        top: -200px;
         z-index: 50;
         height: 75px;
         width: 125px;
@@ -132,8 +151,8 @@ html, body {
 
 .blog2 {   
     position: relative;
-    left: 250px;
-    top: -325px;
+    left: 43%;
+    top: -275px;
     z-index: 50;
     height: 75px;
     width: 125px;
@@ -142,8 +161,8 @@ html, body {
 
 .blog3 {   
     position: relative;
-    left: 450px;
-    top: -400px;
+    left: 65%;
+    top: -350px;
     z-index: 50;
     height: 75px;
     width: 125px;
@@ -163,11 +182,23 @@ html, body {
 .blog5 {
     position: relative;
     left: 850px;
-    top: -550ƒpx;
+    top: -550px;
     z-index: 50;
     height: 75px;
     width: 125px;
     background-color: #d3d9dd;
+}
+
+.blog6 {
+    position: relative;
+    left: 1050px;
+    top: -600px;
+    z-index: 50;
+    height: 75px;
+    width: 125px;
+    background-color: #d3d9dd;
+    
+
 }
 .text3 {
     text-align: justify;
@@ -208,13 +239,14 @@ html, body {
 .back {
     position: relative;
     left: 90%;
+    top: -20%;
     text-decoration: none;
 }
 
 .bottom {
     background-color: #d3d9dc ;
     position: absolute;
-    bottom: 1px;
+    bottom: -50px;
     width: 100%;
     }
 
