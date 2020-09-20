@@ -163,7 +163,7 @@ html, body {
 .blog5 {
     position: relative;
     left: 850px;
-    top: -550px;
+    top: -550ƒpx;
     z-index: 50;
     height: 75px;
     width: 125px;
@@ -244,6 +244,14 @@ html, body {
             width: 50%;
             margin-left: auto;
             margin-right: auto;
+        }
+        .subtitle {
+            font-family: 'Cinzel', serif;
+            text-align: left;
+        }
+        h3 {
+            width: 50%;
+            margin-left: 11%;
         }
 
         

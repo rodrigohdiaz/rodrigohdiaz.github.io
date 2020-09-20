@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>RD Blog</title>
+    <link rel="stylesheet" href="styles/style-blog.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet"> 
+  </head> 
+  <body>
+    <div class='header'>
+      <h1 class='name'><a href='index.html' class='anchor'>rodrigo d&iacute;az</a></h1>
+    </div>
+       
+
+    <div class='about'><a href="about.html" class='anchor'>about</a></div>
+    
+    <div class='blog'><a href="blog.html" class='anchor'>blog</a></div>
+   
+    <div class='image'>
+<div class='blogText'>
+    <h1 class='title'>sprint 3 technical </h1>
+    
+    
+    <h2 class='title'>HTML and CSS</em></h2>
+    <p class='text3'>
+        The difference between html and css is absolutely everything, 
+        they actually complement each other, I like to think that html
+         is like a house without absolutely any type of 'finishing', 
+         a house as it is built, columns, beams, walls and roof, 
+         but then come CSS and I think of css as absolutely everything 
+         that styles that house, colour and texture on the walls, the 
+         type of floor that the house will have, the type of lamps, 
+         the texture, if it will have curtains or blinds... or both, 
+         which kind of taps and switches will it have... absolutely 
+         everything that we see that makes the house 'pritier' or 'stylish'.  
+         The same way I imagine that html and css work, together in order 
+         to display the website, html is the structure, the base and 
+         foundations of the website, while css is all the styling that 
+         we see in each website. 
+    </p><br/></br/>
+
+    <h2 class='title'>control flow and loops</em></h2>
+
+    <p class='text3'>
+        Control flow is the order in which a code is interpreted in order to execute it. 
+        It generally is line by line, unless it comes across an instruction to go look 
+        back again, which in this case would be a 'loop', to put it in an example: 
+        let's say that we are at the supermarket and we have a list of articles to buy, 
+        so we enter the supermarket and go and pick what we need, and we do so by 
+        walking one isle at a time, and when we reach the end and we check our list 
+        we find that we have everything that we need, then we go and proceed to the 
+        checkout; but if at that point, we don't have everything that we need, then 
+        in that case we go back to the isle where we need to get the  article that 
+        we're missing. So the same way is the control flow and loops in javascript 
+        in our code; the variables are the objects in our list, the control flow 
+        is out path in order to get them and the loops when/if we need to go back 
+        to get the rest of the articles that we're missing.
+    </p><br/></br/>
+
+    <h2 class='title'>the DOM</em></h2>
+
+    <p class='text3'>
+        D - document<br>
+        O - object<br>
+        M - model<br>
+    </p><br/>
+
+    <p class='text3'>
+        The way that I understand it, the DOM is the magic that happens 'behind curtains' 
+        on a website, it usually is represented as a tree, with all the branches coming out 
+        from a single element, where every element is called a 'node', and each element has
+         properties.  Now the DOM, being considered an 'object oriented' it means that...  
+         as an analogy let's think of an car as a whole, if it would not be an object 
+         oriented and we want to make a change on the car, let it be the colour, or the
+          seats or the engine, we would have to start from scratch again to design the
+           whole car with the change that we want, but by being 'object oriented' we can 
+           work on every single 'object' that we want to change or modify. So if we want 
+           to change or modify any part of the car, we can grab that element and change 
+           or modify it without having to start the whole car from scratch. The same way 
+           an object oriented language works, we can modify every single one of the 
+           elements (or nodes) and their attributes, and the way that we can do that is 
+           through the DOM,. To put it other words, html sends informations to the DOM 
+           and on the other side there is a programming language like javascript which 
+           interacts with the DOM as an API for the html so the DOM grabs both html & 
+           (in this case) javascript, interprets both of them and what we end up looking 
+           on the screen is based on the DOM and not based on the html code.  
+    </p><br/></br/>
+    
+
+    <h2 class='title'>accessing data from arrays and objects</em></h2>
+
+
+    <h3 class='subtitle'>objects</em></h2>
+    <p class='text3'>
+        We use 'objects' to represent a thing in our code. It can be anything, 
+        a person, and actual object,  a book, etc. anything that we want, so 
+        like any object/person/year/book... they all have characteristics that 
+        differentiate one from each other and these characteristics are known as 
+        'properties' in javascript.<br>
+        These properties can be either: access, added, changer or removed; 
+        and the way that we do that is with a dot '.' or a bracket '[]'.<br><br>
+        dot = object.property <br>
+        bracket = object['property']<br><br> 
+        person.age and pergon['age'] both entries would return the age of 'person',
+        and so we can add, remove or change properties of an object.
+    </p><br/>
+    
+
+    <h3 class='subtitle'>arrays</em></h2>
+
+    <p class='text3'>
+        We use 'arrays' when we want to create a list of different items in one variable. 
+        It is important to mention that arrays have a zero base index, which means that 
+        when accessing a list of items in an array, we will do with their position inside 
+        the array, so for arrays, the number 0 is the first item on the list, therefore, 
+        if we have 3 items and we want the first one of the list, that would be the number 0.<br><br>
+        example:<br>
+        var colours = ['red', 'blue', 'yellow', 'green'];<br>
+        so if we want to call on the first item, we will do so by calling the number 0:<br>
+        colour[0]  (will return the colour 'red')<br><br>
+        Just like properties in an object, the items inside an array can also be added, removed, change. <br><br><br>
+        So the main difference when accessing data between objects and arrays is that when we call 
+        the property of the object, we will do so calling directly this property, but in an array, by 
+        being able to hold a large list of items, we can do so by number in their index.<br><br>
+    </p><br/>
+   
+
+    <h2 class='title'>functions in javascript</em></h2>
+
+    <p class='text3'>
+        Functions are used to perform specific tasks and it is what gives the 
+        interactivity to our websites or apps, we also use it to perform certain 
+        actions to help us to retrieve data.  One of the best things about 
+        functions is that with these we can write a more efficient code, 
+        instead of writing the same piece of code over and over, we can 
+        instead write a function that will save us from writing such piece of 
+        code over and over, which ultimately will make our code easier to 
+        read and easier to maintain.<br>
+    </p><br/>
+
+    </div>
+
+    <a class="back" href='blog.html'>back</a>
+
+  </div>
+
+
+    <div class='bottomBlog'>
+      <footer class='footer'>&#169; rodrigo d&iacute;az 2020</footer>
+    </div>
+  </body>
+</html>
