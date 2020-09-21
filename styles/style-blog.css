@@ -81,6 +81,9 @@ html, body {
     color: orange;
     opacity: none;
 }
+.link {
+    color: darkslategray;
+}
 
 .blog {
     position: relative;
@@ -112,7 +115,10 @@ html, body {
     padding-top: 15px;
     padding-bottom: 35px;
  }
-
+.blog-buttons {
+    position: relative;
+    left: -10%;
+}
  .buttons {
     position: relative;
     width: 1000px;
@@ -171,8 +177,8 @@ html, body {
 
 .blog4 {
     position: relative;
-    left: 23%;
-    top: -400px;
+    left: 85%;
+    top: -425px;
     z-index: 50;
     height: 75px;
     width: 125px;
@@ -231,16 +237,24 @@ html, body {
     z-index: 10;
     font-family: 'Raleway', sans-serif;
 }
+.list {
+    font-size: 15px;
+    color: darkslategrey;
+}
 
 #story {
     font-size: 15px;
 }
 
 .back {
-    position: relative;
-    left: 90%;
-    top: -20%;
+    position: fixed;
+    left: 95%;
+    bottom: 30%;
+    padding: 5px;
     text-decoration: none;
+    z-index: 40;
+    font-family: "Raleway", sans-serif;
+    border: 1px solid black;
 }
 
 .bottom {
