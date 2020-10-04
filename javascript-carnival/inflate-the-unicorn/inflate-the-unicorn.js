@@ -48,9 +48,9 @@ function inflateUnicorn(){
   // here need a loop to alert a message depending on the unicorn that has been inflated
      if (event.target.id = 'Cookie' ) {
      alert ("Unicorn 1: Cookie says 'Thank you!'");
-     } else if (event.target.id = 'Cupcake' ){
+     }  if (event.target.id = 'Cupcake' ){
        alert ("Unicorn 2: Cupcake says 'Thank you!");
-     } else if (event.target.id = 'Lolly') {
+     } if (event.target.id = 'Lolly') {
        alert ("Unicorn 3: Lolly says 'Thank you!");
      }
     }
