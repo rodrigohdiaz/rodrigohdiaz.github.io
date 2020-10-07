@@ -317,8 +317,8 @@ h3 {
 
 .example-inline {
   position: relative;
-  left: 80px;
-  top: 25px;
+  left: 15%;
+  top: 45px;
 }
 
 .example1 {
@@ -347,7 +347,7 @@ h3 {
   width: 100px;
   height: 30px;
   position: relative;
-  left: 15%;
+  
 }
 
 .photoexample2 {
@@ -360,7 +360,7 @@ h3 {
 .example-block {
   position: relative;
   left: 100px;
-  top: 25px;
+  top: -25px;
 }
 
 .example3 {
@@ -369,13 +369,15 @@ h3 {
   border: 1px solid black;
   width: 100px;
   height: 30px;
+  position: relative;
+  left: 15%;
 }
 
 .photoexample3 {
   width: 65%;
   position: relative;
-  top: -200px;
-  left: 30%;
+  top: -50px;
+  left: 15%;
 }
 #text3 {
   font-size: 12px;
@@ -393,12 +395,12 @@ h3 {
   width: 100px;
   height: 30px;
   position: relative;
-  top: -100px;
+  top: -20px;
+  left: 10%;
 }
 
 .photoexample4 {
   width: 65%;
   position: relative;
-  left: 25%;
-  top: -50px;
+  left: 15%;
 }
