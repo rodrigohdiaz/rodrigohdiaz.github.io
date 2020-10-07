@@ -223,12 +223,15 @@ body {
 }
 
 .text4 {
+  text-align: justify;
   width: 75%;
-  font-family: "Raleway", sans-serif;
+  display: block;
   margin-left: auto;
   margin-right: auto;
   position: relative;
-  top: 20px;
+  top: 25px;
+  z-index: 10;
+  font-family: "Raleway", sans-serif;
 }
 .text5 {
   text-align: justify;
@@ -253,6 +256,16 @@ body {
 .back {
   position: fixed;
   left: 95%;
+  bottom: 30%;
+  padding: 5px;
+  text-decoration: none;
+  z-index: 40;
+  font-family: "Raleway", sans-serif;
+  border: 1px solid black;
+}
+.back2 {
+  position: fixed;
+  left: 89%;
   bottom: 30%;
   padding: 5px;
   text-decoration: none;
@@ -304,7 +317,7 @@ h3 {
 
 .example-inline {
   position: relative;
-  left: 200px;
+  left: 80px;
   top: 25px;
 }
 
@@ -314,13 +327,16 @@ h3 {
   border: 1px solid black;
   width: 100px;
   height: 30px;
+  position: relative;
+  left: 10px;
+  top: -65px;
 }
 
 .photoexample1 {
-  width: 500px;
+  width: 65%;
   position: relative;
-  left: 50%;
-  top: -25px;
+  left: 15%;
+  top: 20px;
 }
 
 .example2 {
@@ -330,18 +346,20 @@ h3 {
   border: 1px solid black;
   width: 100px;
   height: 30px;
+  position: relative;
+  left: 15%;
 }
 
 .photoexample2 {
-  width: 500px;
+  width: 65%;
   position: relative;
-  left: 55%;
-  top: -25px;
+  left: 15%;
+  top: 50px;
 }
 
 .example-block {
   position: relative;
-  left: 200px;
+  left: 100px;
   top: 25px;
 }
 
@@ -354,10 +372,10 @@ h3 {
 }
 
 .photoexample3 {
-  width: 500px;
+  width: 65%;
   position: relative;
-  top: -100px;
-  left: 50%;
+  top: -200px;
+  left: 30%;
 }
 #text3 {
   font-size: 12px;
@@ -374,11 +392,13 @@ h3 {
   border: 1px solid black;
   width: 100px;
   height: 30px;
+  position: relative;
+  top: -100px;
 }
 
 .photoexample4 {
-  width: 500px;
+  width: 65%;
   position: relative;
-  left: 55%;
+  left: 25%;
   top: -50px;
 }
